@@ -1,7 +1,7 @@
 name: nekoarc
 displayName: Neko-Arc
 author: DanUnderscore
-description: made in one day 
+description: made in one day also first mod
 version: "1"
 minGameVersion: "140.4"
 dependencies: []
