@@ -1,0 +1,20 @@
+name: Particle Generator
+description: idk
+internalName: particleGenerator
+type: GenericCrafter
+destructible: true
+health: 360
+size: 3
+craftTime: 30
+buildTime: 1
+hasPower: true
+outputItem: nekoarc-particles/10
+
+requirements: [
+  copper/1
+  lead/1
+  graphite/1
+  silicon/1
+  surge-alloy/1
+]
+category: production

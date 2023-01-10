@@ -1,0 +1,8 @@
+name: nekoarc
+displayName: Neko Arc 
+author: DanUnderscore
+description: .
+version: "1"
+minGameVersion: "140.4"
+dependencies: []
+hidden: true

@@ -1,0 +1,7 @@
+name: Particles
+internalName: particles
+description: used for making the thing
+explosiveness: 10
+flammability: 10
+charge: 10
+radioactivity: 10

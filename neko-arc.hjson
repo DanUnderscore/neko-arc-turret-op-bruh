@@ -1,0 +1,37 @@
+type: PowerTurret
+name: neko arc
+description: .
+category: defense
+buildVisibility: shown
+hasShadow: "false"
+solid: "true"
+breakable: "true"
+destructible: "true"
+health: 40000
+range: 300
+size: 5
+rotationSpeed: 10
+buildTime: 180
+reload: 5
+inaccuracy: 45
+loopSound: "burunyaa"
+consumes: {
+power: 12
+}
+shootType: {
+ type: "BasicBulletType"
+ damage: 200
+ height: 40
+ lifetime: 30
+ width: 40
+ hitsize: 36
+ speed: 5 
+ fragBullet: {
+  type:"MissileBulletType"
+  damage: 100
+  speed: 5
+  lifetime: 180
+    }
+}
+requirements: [nekoarc-particles/40000
+]
