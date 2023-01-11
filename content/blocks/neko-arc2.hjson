@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Sequel
+description: no 
+category: turret
+buildVisibility: shown
+hasShadow: "false"
+solid: "true"
+breakable: "true"
+destructible: "true"
+health: 100000
+placeableLiquid: "true"
+range: 1200
+size: 2
+rotationSpeed: 1
+buildTime: 30
+reload: 180
+inaccuracy: 0
+loopSound: "burunyaa"
+recoil: 10
+recoilTime: 300
+maxAmmo: 10000
+ammoPerShot: 1000
+ammoTypes: {
+ nekoarc-particles: {
+  type: "ArtilleryBulletType"
+  despawnSound: "pulseBlast"
+  damage: 100000
+  height: 40
+  lifetime: 300
+  width: 40
+  hitsize: 36
+  speed: 5
+  fragOnHit: "true"
+  fragBullets: 100
+  fragBullet: {
+   type: "MissileBulletType"
+   damage: 5000
+   splashDamage: 2500
+   splashDamageRadius: 16
+   height: 20
+   width: 20 
+   hitSize: 16
+   despawnSound: "explosion"
+   speed: 24
+   lifetime: 120
+     }
+   }
+ }
+requirements: [nekoarc-particles/100000
+]
