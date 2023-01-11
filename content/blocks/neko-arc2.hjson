@@ -14,8 +14,8 @@ size: 2
 rotationSpeed: 1
 buildTime: 30
 reload: 180
-inaccuracy: 0
-loopSound: "burunyaa"
+shootSound: "burunyaa"
+shake: 5
 recoil: 10
 recoilTime: 300
 maxAmmo: 10000
