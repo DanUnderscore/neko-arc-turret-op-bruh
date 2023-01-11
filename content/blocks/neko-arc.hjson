@@ -17,6 +17,8 @@ buildTime: 180
 reload: 5
 inaccuracy: 45
 shootSound: "burunyaa"
+soundPitchMin: 1
+soundPitchMax: 1
 recoil: 5
 recoilTime: 60
 consumes: {
